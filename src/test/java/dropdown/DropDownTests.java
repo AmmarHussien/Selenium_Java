@@ -1,12 +1,12 @@
 package dropdown;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class DropDownTests extends baseTests {
+public class DropDownTests extends BaseTests {
 
     @Test
     public void testSelectedOption(){

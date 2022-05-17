@@ -1,9 +1,9 @@
 package Keys;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 
-public class TestPi extends baseTests {
+public class TestPi extends BaseTests {
     @Test
     public void testPi(){
         var KeyPage = homePage.clickKeyPresses();

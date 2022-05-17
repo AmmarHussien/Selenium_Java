@@ -1,11 +1,11 @@
 package alerts;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class ConfirmAlertsTest extends baseTests {
+public class ConfirmAlertsTest extends BaseTests {
     @Test
     public void testAcceptAlert(){
        var alertsPage =  homePage.clickJavaScriptAlerts();

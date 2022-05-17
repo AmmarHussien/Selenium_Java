@@ -1,11 +1,11 @@
 package hover;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class HoversTests extends baseTests {
+public class HoversTests extends BaseTests {
     @Test
     public void testHoverUser1(){
         var hoversPage = homePage.clickHovers();

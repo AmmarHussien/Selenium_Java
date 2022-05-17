@@ -1,12 +1,12 @@
 package login;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
 import static org.testng.Assert.assertTrue;
 
-public class WrongUsername extends baseTests {
+public class WrongUsername extends BaseTests {
 
     @Test
     public  void testWrongUsername(){

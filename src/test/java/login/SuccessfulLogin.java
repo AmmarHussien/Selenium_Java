@@ -1,13 +1,13 @@
 package login;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.SecureAreaPage;
 
 import static org.testng.Assert.*;
 
-public class SuccessfulLogin extends baseTests {
+public class SuccessfulLogin extends BaseTests {
 
     @Test
     public  void testSuccessfulLogin(){

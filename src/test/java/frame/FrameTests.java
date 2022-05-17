@@ -1,10 +1,10 @@
 package frame;
 
-import base.baseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
-public class FrameTests extends baseTests {
+public class FrameTests extends BaseTests {
 
     @Test
 

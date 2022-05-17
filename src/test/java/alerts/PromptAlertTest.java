@@ -1,12 +1,11 @@
 package alerts;
 
-import base.baseTests;
-import org.testng.SuiteRunner;
+import base.BaseTests;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class PromptAlertTest extends baseTests {
+public class PromptAlertTest extends BaseTests {
     @Test
     public void PromptAlertTest(){
         var alertsPage = homePage.clickJavaScriptAlerts();
